@@ -37,6 +37,12 @@ function Todo({id}) {
         {todo.contents.description}
       </div>
     )
+  } else if (todo.state === "hasError") {
+    return (
+      <div>
+        Error while getting data from backend 
+      </div>
+    )
   }
 }
 
