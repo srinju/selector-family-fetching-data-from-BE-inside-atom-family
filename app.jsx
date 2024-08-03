@@ -21,6 +21,8 @@ function Todo({id}) {
 
   //userecoilstateloadable is nothing but userecoilstate only but it gives you a bunch of things like>>>
   //contents and state
+  // or whenever we dont have to worry about settotodo we can just use userecoilvalueloadable
+
 
   if(todo.state === "loading") {
     return (
